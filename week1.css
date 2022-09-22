@@ -1,5 +1,6 @@
 .body{
     font-size: 20px;
+    margin: 0px;
 }
 
 .desktop-menu{
@@ -38,7 +39,6 @@
     align-items: center;
     background-color: beige;
     font-size: 200%;
-    margin: 0px;
 }
 
 .body1{
