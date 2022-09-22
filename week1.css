@@ -19,12 +19,14 @@
 
 .left{
     flex:none;
+    padding-left: 8px;
 }
 
 .right{
     flex:auto;    
     display: flex;
     justify-content: flex-end;
+    padding-right: 8px;
 }
 
 .item{
