@@ -95,6 +95,7 @@
 }
 
 .star{
+    width: 40px;
     position: absolute;bottom: 80%;left: 80%;
 }
 
@@ -116,8 +117,8 @@
         object-fit: cover;
     }
     .star{
+        width: 12%;
         position: absolute;bottom:83%;left: 85%;
-        width: 38px;
     }
 }
 
@@ -145,7 +146,7 @@
         object-fit: cover;
     }
     .star{
+        width: 8%;
         position: absolute;bottom: 87%;left: 90%;
-        width: 32px;
     }
 }
