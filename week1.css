@@ -78,15 +78,24 @@
 
 .momo{
     flex: none;
-    background-color: beige;
     text-align: center;
-    padding-bottom: 8px;
-    margin: 10px;
+    margin: 10px 10px -20px 10px;
+    position: relative;
 }
 
 .img2{
     width: 285px;
     object-fit: cover;
+}
+
+.text1{
+    height: 40px;line-height: 40px;
+    position: relative; bottom: 45px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.star{
+    position: absolute;bottom: 80%;left: 80%;
 }
 
 @media (max-width:1199px){
@@ -101,10 +110,15 @@
     }
     .momo{
         width: 45%;
+        position: relative;
     }
     .img2{
         width: 100%;
         object-fit: cover;
+    }
+    .star{
+        position: absolute;bottom:83%;left: 85%;
+        width: 38px;
     }
 }
 
@@ -130,5 +144,9 @@
     .img2{
         width: 100%;
         object-fit: cover;
+    }
+    .star{
+        position: absolute;bottom: 87%;left: 90%;
+        width: 32px;
     }
 }
